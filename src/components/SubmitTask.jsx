@@ -13,7 +13,6 @@ const SubmitTask = () => {
     e.preventDefault();
     dispatch(addTask(newTask));
     setNewTask("");
-    // selectTaskList(newTask)
   };
 
   const handleClick = () => {
