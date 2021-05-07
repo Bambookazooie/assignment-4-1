@@ -24,7 +24,7 @@ const SubmitTask = () => {
 
   return (
     <form className="task-submit-form" onSubmit={handleSubmit}>
-      <label htmlFor="task-type">Task Name</label>
+      <label htmlFor="task-type">Store</label>
       <input
         id="task-type"
         type="text"
