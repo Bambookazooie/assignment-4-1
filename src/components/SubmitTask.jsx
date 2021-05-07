@@ -24,14 +24,14 @@ const SubmitTask = () => {
 
   return (
     <form className="task-submit-form" onSubmit={handleSubmit}>
-      <label htmlFor="task-type">Store</label>
+      <label htmlFor="task-type">Value to be stored</label>
       <input
         id="task-type"
         type="text"
         value={newTask}
         onChange={(e) => setNewTask(e.target.value)}
       ></input>
-      <button type="submit">Submit Task</button>
+      <button type="submit">Store</button>
       <button onClick={() => handleClick()}>display</button>
       <div className="input"></div>
     </form>
