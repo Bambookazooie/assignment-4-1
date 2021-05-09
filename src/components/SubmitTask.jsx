@@ -32,7 +32,7 @@ const SubmitTask = () => {
         onChange={(e) => setNewTask(e.target.value)}
       ></input>
       <button type="submit">Store</button>
-      <button onClick={() => handleClick()}>display</button>
+      <button onClick={() => handleClick()}>Display</button>
       <div className="input"></div>
     </form>
   );
